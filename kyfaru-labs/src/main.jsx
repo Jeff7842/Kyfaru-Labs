@@ -1,23 +1,9 @@
-import { createRoot } from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 
-const myelement =(
-<table>
-    <tr>
-      <th>
-        Kyfaru Labs
-      </th>
-      <th>
-        Name
-      </th>
-      <th>
-        John
-      </th>
-      <th>
-        Elsa
-      </th>
-    </tr>
-  </table>
-)
-createRoot(document.getElementById('kyfaru')).render(
-  myelement
-)
+ReactDOM.createRoot(document.getElementById('kyfaru')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
