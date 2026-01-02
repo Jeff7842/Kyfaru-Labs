@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      
       <section className="home" id="home">
         <div className="home-content">
           <h1>Welcome to Kyfaru</h1>
